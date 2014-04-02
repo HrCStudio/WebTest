@@ -1,0 +1,41 @@
+article, section, footer {
+    display:block;
+}
+body {
+    margin-left:30px;
+    margin-top:50px;
+    height: 500px;
+	width: 550px;
+}
+
+h1{
+
+}
+
+h2 {
+font-style: oblique;
+background-color: navy;
+color:white;
+text-align: center;
+}
+
+h3	{
+font-size: 14px;
+background-color: grey;
+color:white;
+text-align: center;
+}
+
+#fechapu {
+	color: red;
+}
+footer {
+	 margin-top:20px;
+	background-color: navy;
+color:white;
+text-align: center;
+}
+
+#hora{
+	font-style: oblique;
+}
