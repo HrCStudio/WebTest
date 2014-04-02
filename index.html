@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<title>Prueba HTML5</title>
+<title>Prueba HTML5 - Proyecto 1 col</title>
 <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -10,17 +10,36 @@
 		<figure id="logo"><img src="imagenes/logo.png"></figure>
 		<h1>Titulo de la web</h1>
 </header>
-	<section>
-	<article>
-	<h2>Sala de Prensa de Mozilla</h2>
-	<h3>Noticias y novedades sobre Mozilla</h3>
-	<h1>Mozilla y sus socios llevan Firefox OS a nuevas plataformas y dispositivos</h1>
-		<p id="fechapu">Noticia publicada el 14 de Noviembre del 2013, por Admin</p>
-		<p>lorem
-		Estamos encantados de anunciar algunas noticias acerca del creciente ecosistema de Firefox OS que cumple con la necesidad de una plataforma móvil completamente adaptable, sin restricciones, y además estamos trabajando para ofrecer una experiencia web móvil innovadora y personalizable.</p>
-	<a href="pagina2.html">Más información ></a>
-	</article>
+<nav>
+	<ul>
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">HTML5</a></li>
+		<li><a href="#">Javascript</a></li>
+		<li><a href="#">CSS3</a></li>
+		<li id="publicar_nav"><a href="#">Publicar</a></li>
+	</ul>
+</nav>
+	<section id="contenido">
+		<article class="item">
+			<figure class="imagen_item">
+				<img src="imagen.jpg">
+			</figure>
+			<h2 class="titulo_item">
+				<a href="#">Título del artículo</a>
+			</h2>
+		<p class="autor_item">Por <a href="#">Hugo Rodriguez</a></p>
+		<p class="datos_item">
+		<a href="#" class="tag_item">Resposive</a></p>
+		<span class="fecha_item">Hace <strong>5</strong> min</span>
+		<a href="#" class="comentarios_item">3</a>
+		<a href="#" class="guardar_item"></a>
+		<p class="votacion">
+			<a href="#" class="up">Resposive</a>
+			666
+			<a href="#" class="down">Resposive</a>
+		</p>
+		</article>
 	</section>
-<footer>Ejercicio obligatorio Modulo 1-2 :: Curso MiriadaX - Desarrollo web - By Hugo Rodriguez Claver</footer>
+<footer><p>Powered by By <strong>Hugo Rodriguez</strong> Claver</p></footer>
 </body>
 </html>
